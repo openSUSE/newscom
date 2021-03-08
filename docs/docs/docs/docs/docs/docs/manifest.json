@@ -9,7 +9,7 @@
   "display": "standalone",
   "icons": [
     {
-      "src": "/assets/favicons/favicon.png",
+      "src": "//https//github.com/openSUSE/newscom/assets/favicons/favicon.png",
       "sizes": "196x196",
       "type": "image/png"
     }
