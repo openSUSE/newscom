@@ -1,7 +1,7 @@
 {
-  "name": "Community News",
-  "short_name": "Community News",
-  "description": "Read the last newsletters here and get started to help us prepare the next one!",
+  "name": "",
+  "short_name": "",
+  "description": "",
   "background_color": "#ffffff",
   "theme_color": "#73ba25",
   "start_url": ".",
@@ -9,7 +9,7 @@
   "display": "standalone",
   "icons": [
     {
-      "src": "/newscom/assets/favicons/favicon.png",
+      "src": "https://opensuse.github.io/newscom/assets/favicons/favicon.png",
       "sizes": "196x196",
       "type": "image/png"
     }
