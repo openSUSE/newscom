@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Community News</title>
-    <link></link>
+    <link>/</link>
     <description>Read the last newsletters here and get started to help us prepare the next one!</description>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="//feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
       <guid>/2018/03/08/call/</guid>
       <title></title>
       <pubDate>Thu, 08 Mar 2018 12:52:30 +0100</pubDate>
-      <link>/2018/03/08/call/</link>
+      <link>//2018/03/08/call/</link>
       <author>nycticorax@opensuse.org (nycticorax@opensuse.org)</author>
       <description>Dear community, openSUSE has been known for years as an amazing, vast and buzzing community. But after many discussions with the many linguistic groups that compose the openSUSE mosaic, we feel that more could be done to facilitate communication and exchanges. We feel this is what makes a community of...</description>
       <content:encoded>&lt;p&gt;Dear community,&lt;/p&gt;
