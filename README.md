@@ -5,3 +5,5 @@ The future openSUSE newsletter/comnews repository. So far it is using a cheap tr
 1. Fork this repository:
     `git clone https://github.com/openSUSE/newscom.git`
 2. Translate the strings under `_data/*.yaml` as required. Check out `en.yaml` for examples.
+3. Submit a Pull Request against this repository.
+I'll be pleased to share writing rights with anyone interested. Just ping me at @ad_himself on Telegram.
