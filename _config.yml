@@ -3,9 +3,9 @@ title_short: "comnews"
 email: "nycticorax@opensuse.org"
 description: "Read the last newsletters here and get started to help us prepare the next one!"
 copyright: '© 2021 openSUSE contributors'
-baseurl: "https://opensuse.github.io/newscom/"
-url: ""
-weblate_url: "/"
+baseurl: ""
+url: "https://opensuse.github.io/newscom"
+weblate_url: "https://l10n.opensuse.org/"
 
 piwik_site_id: false
 
@@ -65,13 +65,13 @@ navbar_links:
 
 date_format: '%-d. %b %Y'
 
-# footer_links:
-#   -
-#     text: Source Code
-#     link: https://github.com/openSUSE/news-o-o
-#   -
-#     text: License
-#     link: https://github.com/openSUSE/news-o-o/blob/master/LICENSE
+footer_links:
+  -
+    text: Source Code
+    link: https://github.com/openSUSE/newscom
+#  -
+#    text: License
+#    link: https://github.com/openSUSE/newscom
 
 messages:
   categories: 'Categories'
