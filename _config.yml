@@ -3,7 +3,7 @@ title_short: "comnews"
 email: "nycticorax@opensuse.org"
 description: "Read the last newsletters here and get started to help us prepare the next one!"
 copyright: '© 2021 openSUSE contributors'
-baseurl: ""
+baseurl: "/newscom/"
 url: "https://opensuse.github.io/newscom"
 weblate_url: "https://l10n.opensuse.org/"
 
