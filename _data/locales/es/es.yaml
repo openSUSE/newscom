@@ -18,49 +18,49 @@ share_this_post: Share this post
 locale_date:
   date:
     day_names:
-      - Sunday
-      - Monday
-      - Tuesday
-      - Wednesday
-      - Thursday
-      - Friday
-      - Saturday
+      - Domingo
+      - Lunes
+      - Martes
+      - Miércoles
+      - Jueves
+      - Viernes
+      - Sábado
     month_names:
       - ''
-      - January
-      - February
-      - March
-      - April
-      - May
-      - June
-      - July
-      - August
-      - September
-      - October
-      - November
-      - December
+      - Enero
+      - Febrero
+      - Marzo
+      - Abril
+      - Mayo
+      - Junio
+      - Julio
+      - Agosto
+      - Septiembre
+      - Octubre
+      - Noviembre
+      - Diciembre
     abbr_day_names:
-      - Sun
-      - Mon
-      - Tue
-      - Wed
-      - Thu
-      - Fri
-      - Sat
+      - Dom
+      - Lun
+      - Mar
+      - Mi
+      - Ju
+      - Vi
+      - Sa
     abbr_month_names:
       - ''
-      - Jan
+      - Ene
       - Feb
       - Mar
-      - Apr
+      - Abr
       - May
       - Jun
       - Jul
-      - Aug
+      - Ago
       - Sep
       - Oct
       - Nov
-      - Dec
+      - Dic
   time:
     am: "am"
     pm: "pm"
