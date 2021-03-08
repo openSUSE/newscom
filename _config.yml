@@ -1,0 +1,139 @@
+title: "Community News"
+title_short: "comnews"
+email: "nycticorax@opensuse.org"
+description: "Read the last newsletters here and get started to help us prepare the next one!"
+copyright: '© 2021 openSUSE contributors'
+baseurl: ""
+url: ""
+weblate_url: ""
+
+piwik_site_id: false
+
+excerpt_separator: <!--more-->
+
+defaults:
+  -
+    scope:
+      path: "*.html"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: "*.md"
+    values:
+      layout: "markdown"
+  -
+    scope:
+      path: "*.markdown"
+    values:
+      layout: "markdown"
+
+navbar_links:
+  -
+    link: ""
+    text: "Call For Contributors"
+  -
+    link: ""
+    text: "Issue#1"
+  -
+    link: ""
+    text: "Upcoming Issue"
+
+  # - categories
+  # -
+  #  icon: <svg class="bi bi-pencil-square" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456l-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/><path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/></svg>
+  #  link: https://github.com/openSUSE/news-o-o#how-to-submit-a-new-post
+  #  text: Contribute
+  # -
+  #  icon: <svg class="bi bi-bell" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2z"/><path fill-rule="evenodd" d="M8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/></svg>
+  #  link: /feed/
+  #  text: RSS Feed
+
+# search_provider: github
+# search_github_repo: openSUSE/news-o-o
+
+# search_provider: duckduckgo
+# search_site: news.opensuse.org
+
+# navbar_class: navbar-expand-md sticky-top
+# enable_feed: true
+
+# if you want to use $.ajax()
+# jquery_full: true
+
+# breadcrumb_icon: <svg class="bi bi-newspaper" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M0 2A1.5 1.5 0 0 1 1.5.5h11A1.5 1.5 0 0 1 14 2v12a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 0 14V2zm1.5-.5A.5.5 0 0 0 1 2v12a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5V2a.5.5 0 0 0-.5-.5h-11z"/><path fill-rule="evenodd" d="M15.5 3a.5.5 0 0 1 .5.5V14a1.5 1.5 0 0 1-1.5 1.5h-3v-1h3a.5.5 0 0 0 .5-.5V3.5a.5.5 0 0 1 .5-.5z"/><path d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"/></svg>
+
+date_format: '%-d. %b %Y'
+
+# footer_links:
+#   -
+#     text: Source Code
+#     link: https://github.com/openSUSE/news-o-o
+#   -
+#     text: License
+#     link: https://github.com/openSUSE/news-o-o/blob/master/LICENSE
+
+messages:
+  categories: 'Categories'
+  tags: 'Tags'
+  months:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+  share_this_post: Share this post
+
+markdown: kramdown
+
+plugins:
+  - jekyll-paginate
+#   - jekyll-archives
+
+paginate: 10
+paginate_path: '/page/:num/'
+permalink: /:year/:month/:day/:title/
+
+# WARNING: jekyll-archives can not be used with jekyll-locale!!!
+# jekyll-archives:
+#   enabled: all
+#   layout: 'archive'
+#   permalinks:
+#     year: '/:year/'
+#     month: '/:year/:month/'
+#     day: '/:year/:month/:day/'
+#     tag: '/tag/:name/'
+#     category: '/category/:name/'
+#   layouts:
+#     year: year-archive
+#     month: month-archive
+#     day: day-archive
+#     tag: cattag-archive
+#     category: cattag-archive
+
+# WARNING: jekyll-locale can not be used with jekyll-archives!!!
+localization:
+  mode       : auto
+  locale     : en
+  locales_set:
+    en:
+      name: English
+    id:
+      name: Español
+    es:
+      name: Farsi
+    fa:
+      name: Indonesia
+    pt:
+      name: Portuguese
+    ru:
+      name: Russian
+
+exclude: [README.md, Gemfile, Gemfile.lock, vendor]
