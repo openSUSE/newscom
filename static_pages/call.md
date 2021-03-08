@@ -1,3 +1,5 @@
+---
+---
 Dear community,
 
 openSUSE has been known for years as an amazing, vast and buzzing community. But after many discussions with the many linguistic groups that compose the openSUSE mosaic, we feel that more could be done to facilitate communication and exchanges. We feel this is what makes a community of communities special: it thrives when all groups, from big to small, stick together and share the pleasure of sharing -- be it knowledge, emotions or stories.
