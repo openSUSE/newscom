@@ -3,8 +3,8 @@ title_short: "comnews"
 email: "nycticorax@opensuse.org"
 description: "Read the last newsletters here and get started to help us prepare the next one!"
 copyright: '© 2021 openSUSE contributors'
-baseurl: ""
-url: "/newscom"
+baseurl: "/newscom"
+url: "https://opensuse.github.io"
 weblate_url: "https://l10n.opensuse.org/"
 
 piwik_site_id: false
@@ -120,17 +120,15 @@ permalink: /:year/:month/:day/:title/
 
 # WARNING: jekyll-locale can not be used with jekyll-archives!!!
 localization:
-  mode       : auto
+  mode       : manual
   locale     : en
   locales_set:
-    en:
-      name: English
     id:
-      name: Español
+      name: Indonesian
     es:
-      name: Farsi
+      name: Español
     fa:
-      name: Indonesia
+      name: Farsi
     pt:
       name: Portuguese
     ru:
