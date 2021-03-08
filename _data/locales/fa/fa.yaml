@@ -18,51 +18,51 @@ share_this_post: Share this post
 locale_date:
   date:
     day_names:
-      - Sunday
-      - Monday
-      - Tuesday
-      - Wednesday
-      - Thursday
-      - Friday
-      - Saturday
+      - یکشنبه
+      - دوشنبه
+      - سه‌شنبه
+      - چهارشنبه
+      - پنجشنبه
+      - جمعه
+      - شنبه
     month_names:
       - ''
-      - January
-      - February
-      - March
-      - April
-      - May
-      - June
-      - July
-      - August
-      - September
-      - October
-      - November
-      - December
+      - ژانویه
+      - فوریه
+      - مارس
+      - آوریل
+      - مِی
+      - ژوئن
+      - جولای
+      - آگوست
+      - سپتامبر
+      - اکتبر
+      - نوامبر
+      - دسامبر
     abbr_day_names:
-      - Sun
-      - Mon
-      - Tue
-      - Wed
-      - Thu
-      - Fri
-      - Sat
+      - یکشنبه
+      - دوشنبه
+      - سه‌شنبه
+      - چهارشنبه
+      - پنجشنبه
+      - جمعه
+      - شنبه
     abbr_month_names:
       - ''
-      - Jan
-      - Feb
-      - Mar
-      - Apr
-      - May
-      - Jun
-      - Jul
-      - Aug
-      - Sep
-      - Oct
-      - Nov
-      - Dec
+      - ژانویه
+      - فوریه
+      - مارس
+      - آوریل
+      - مِی
+      - ژوئن
+      - جولای
+      - آگوست
+      - سپتامبر
+      - اکتبر
+      - نوامبر
+      - دسامبر
   time:
-    am: "am"
-    pm: "pm"
+    am: "ق.ظ."
+    pm: "ب.ظ."
     formats:
       default: "%B %d, %Y"
