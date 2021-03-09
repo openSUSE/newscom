@@ -130,5 +130,13 @@ localization:
       name: English
     id:
       name: Indonesian
+    es:
+      name: Spanish
+    fa:
+      name: Farsi
+    ru:
+      name: Russian
+    pt:
+      name: Portuguese
 
 exclude: [README.md, Gemfile, Gemfile.lock, vendor]
