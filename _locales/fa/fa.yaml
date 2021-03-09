@@ -1,0 +1,68 @@
+site_title: Community News
+site_title_short: comnews
+site_description: Read the last newsletters here and get started to help us prepare the next one!
+site_copyright: © 2011-2020 openSUSE contributors
+
+search: Search
+categories: Categories
+tags: Tags
+new_post: New Post
+translate: Translate
+subscribe: Subscribe
+
+source_code: Source Code
+privacy: Privacy
+
+share_this_post: Share this post
+
+locale_date:
+  date:
+    day_names:
+      - یکشنبه
+      - دوشنبه
+      - سه‌شنبه
+      - چهارشنبه
+      - پنجشنبه
+      - جمعه
+      - شنبه
+    month_names:
+      - ''
+      - ژانویه
+      - فوریه
+      - مارس
+      - آوریل
+      - مِی
+      - ژوئن
+      - جولای
+      - آگوست
+      - سپتامبر
+      - اکتبر
+      - نوامبر
+      - دسامبر
+    abbr_day_names:
+      - یکشنبه
+      - دوشنبه
+      - سه‌شنبه
+      - چهارشنبه
+      - پنجشنبه
+      - جمعه
+      - شنبه
+    abbr_month_names:
+      - ''
+      - ژانویه
+      - فوریه
+      - مارس
+      - آوریل
+      - مِی
+      - ژوئن
+      - جولای
+      - آگوست
+      - سپتامبر
+      - اکتبر
+      - نوامبر
+      - دسامبر
+  time:
+    am: "ق.ظ."
+    pm: "ب.ظ."
+    formats:
+      default: "%B %d, %Y"

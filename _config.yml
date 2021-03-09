@@ -1,11 +1,12 @@
-title: "Community News"
-title_short: "comnews"
+title: "openSUSE Community News"
+title_short: "Community News"
 email: "nycticorax@opensuse.org"
 description: "Read the last newsletters here and get started to help us prepare the next one!"
 copyright: '© 2021 openSUSE contributors'
-baseurl:
-url: "https://opensuse.github.io/newscom"
-weblate_url: "https://l10n.opensuse.org/"
+baseurl: "/newscom"
+url: "https://opensuse.github.io"
+weblate_url: https://l10n.opensuse.org/projects/newscom/
+theme: jekyll-theme-opensuse
 
 piwik_site_id: false
 
@@ -19,7 +20,7 @@ defaults:
       layout: "default"
   -
     scope:
-      path: "*.md"
+      path: "**/*.md"
     values:
       layout: "markdown"
   -
@@ -30,14 +31,15 @@ defaults:
 
 navbar_links:
   -
-    link: ""
+    link: "static_pages/call/"
     text: "Call For Contributors"
   -
-    link: ""
+    link: "static_pages/issue-1/"
     text: "Issue#1"
   -
-    link: ""
+    link: "static_pages/"
     text: "Upcoming Issue"
+  - locales
 
   # - categories
   # -
@@ -94,12 +96,13 @@ messages:
 markdown: kramdown
 
 plugins:
-  - jekyll-paginate
-#   - jekyll-archives
+  - jekyll-locale
 
-paginate: 10
-paginate_path: '/page/:num/'
 permalink: /:year/:month/:day/:title/
+paginate: 5
+paginate_path: "/page:num/"
+
+############################################################
 
 # WARNING: jekyll-archives can not be used with jekyll-locale!!!
 # jekyll-archives:
@@ -123,15 +126,17 @@ localization:
   mode       : manual
   locale     : en
   locales_set:
+    en:
+      name: English
     id:
       name: Indonesian
     es:
-      name: Español
+      name: Spanish
     fa:
       name: Farsi
-    pt:
-      name: Portuguese
     ru:
       name: Russian
+    pt:
+      name: Portuguese
 
 exclude: [README.md, Gemfile, Gemfile.lock, vendor]
