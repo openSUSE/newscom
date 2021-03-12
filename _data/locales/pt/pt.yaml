@@ -1,0 +1,68 @@
+site_title: openSUSE Community News
+site_title_short: Community News
+site_description: Read the last newsletters here and get started to help us prepare the next one!
+site_copyright: © 2011-2020 openSUSE contributors
+
+search: Search
+categories: Categories
+tags: Tags
+new_post: New Post
+translate: Translate
+subscribe: Subscribe
+
+source_code: Source Code
+privacy: Privacy
+
+share_this_post: Share this post
+
+locale_date:
+  date:
+    day_names:
+      - Domingo
+      - Segunda
+      - Terça
+      - Quarta
+      - Quinta
+      - Sexta
+      - Sabado
+    month_names:
+      - ''
+      - Janeiro
+      - Fevereiro
+      - Março
+      - Abril
+      - Maio
+      - Junho
+      - Julho
+      - Agosto
+      - Setembro
+      - Outubro
+      - Novembro
+      - Dezembro
+    abbr_day_names:
+      - Dom
+      - Seg
+      - Ter
+      - Qua
+      - Qui
+      - Sex
+      - Sab
+    abbr_month_names:
+      - ''
+      - Jan
+      - Fev
+      - Mar
+      - Abr
+      - Mai
+      - Jun
+      - Jul
+      - Ago
+      - Set
+      - Out
+      - Nov
+      - Dez
+  time:
+    am: "am"
+    pm: "pm"
+    formats:
+      default: "%d %B, %Y"
