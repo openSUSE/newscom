@@ -40,9 +40,9 @@ locale_date:
       - Noviembre
       - Diciembre
     abbr_day_names:
-      - Dom
-      - Lun
-      - Mar
+      - Do
+      - Lu
+      - Ma
       - Mi
       - Ju
       - Vi
@@ -65,4 +65,4 @@ locale_date:
     am: "am"
     pm: "pm"
     formats:
-      default: "%B %d, %Y"
+      default: "%d %B, %Y"
