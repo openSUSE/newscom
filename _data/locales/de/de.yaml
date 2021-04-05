@@ -1,0 +1,68 @@
+site_title: Community News
+site_title_short: comnews
+site_description: Read the last newsletters here and get started to help us prepare the next one!
+site_copyright: © 2011-2021 openSUSE contributors
+
+search: Suchen
+categories: Kategorien
+tags: Tags
+new_post: New Post
+translate: Translate
+subscribe: Subscribe
+
+source_code: Source Code
+privacy: Privatsphäre
+
+share_this_post: Diesen Post teilen
+
+locale_date:
+  date:
+    day_names:
+      - Sonntag
+      - Montag
+      - Dienstag
+      - Mittwoch
+      - Donnerstag
+      - Freitag
+      - Samstag
+    month_names:
+      - ''
+      - Januar
+      - Februar
+      - März
+      - April
+      - Mai
+      - Juni
+      - Juli
+      - August
+      - September
+      - Oktober
+      - November
+      - Dezember
+    abbr_day_names:
+      - So
+      - Mo
+      - Di
+      - Mi
+      - Do
+      - Fr
+      - Sa
+    abbr_month_names:
+      - ''
+      - Jan
+      - Feb
+      - Mär
+      - Apr
+      - Mai
+      - Jun
+      - Jul
+      - Aug
+      - Sep
+      - Okt
+      - Nov
+      - Dez
+  time:
+    am: "am"
+    pm: "pm"
+    formats:
+      default: "%d. %B %Y"
