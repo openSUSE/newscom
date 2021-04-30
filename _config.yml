@@ -138,5 +138,7 @@ localization:
       name: Russian
     pt:
       name: Portuguese
+    zh:
+      name: Chinese
 
 exclude: [README.md, Gemfile, Gemfile.lock, vendor]
